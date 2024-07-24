@@ -24,7 +24,7 @@ const Project = () => {
               description: 'A simple frontend code editor built using HTML, CSS and JS to help you build simple projects which use these technologies.',
               tech: ['#HTML', '#CSS', '#JavaScript'],
               liveLink: 'https://code-editor-lime-chi.vercel.app/',
-              githubLink: 'https://github.com/manav-singhal12'
+              githubLink: 'https://github.com/manav-singhal12/codeEditor'
             },
             {
               title: 'Looks',
@@ -32,16 +32,16 @@ const Project = () => {
               description: 'A full stack e-commerce website designed to buy clothes. This website allows you to create your own cart and buy products. The list of orders you made are also visible.',
               tech: ['#NextJs', '#MongoDB', '#Tailwind'],
               liveLink: 'https://fd-3388.vercel.app/',
-              githubLink: 'https://github.com/manav-singhal12'
+              githubLink: 'https://github.com/manav-singhal12/fd'
             },
-            {
-              title: 'Chat Vibe',
-              imgSrc: './codeeditor.png',
-              description: 'A full stack code application which provides real time chat between the users with a interactive UI design. Also provides emoji and images facilities.',
-              tech: ['#React', '#Node', '#Socketio'],
-              liveLink: 'https://code-editor-lime-chi.vercel.app/',
-              githubLink: 'https://github.com/manav-singhal12'
-            },
+            // {
+            //   title: 'Chat Vibe',
+            //   imgSrc: './codeeditor.png',
+            //   description: 'A full stack code application which provides real time chat between the users with a interactive UI design. Also provides emoji and images facilities.',
+            //   tech: ['#React', '#Node', '#Socketio'],
+            //   liveLink: 'https://code-editor-lime-chi.vercel.app/',
+            //   githubLink: 'https://github.com/manav-singhal12'
+            // },
             {
               title: 'PassMaps',
               imgSrc: './PassMaps.png',
@@ -50,14 +50,14 @@ const Project = () => {
               liveLink: 'https://password-manager-chi-eight.vercel.app/',
               githubLink: 'https://github.com/manav-singhal12/PasswordManager'
             },
-            {
-              title: 'Motify',
-              imgSrc: './codeeditor.png',
-              description: 'A project which is a spotify clone used to play different songs allows you to play, stop the songs,increase or decrease the volume.',
-              tech: ['#HTML', '#CSS', '#JavaScript'],
-              liveLink: 'https://code-editor-lime-chi.vercel.app/',
-              githubLink: 'https://github.com/manav-singhal12'
-            }
+            // {
+            //   title: 'Motify',
+            //   imgSrc: './codeeditor.png',
+            //   description: 'A project which is a spotify clone used to play different songs allows you to play, stop the songs,increase or decrease the volume.',
+            //   tech: ['#HTML', '#CSS', '#JavaScript'],
+            //   liveLink: 'https://code-editor-lime-chi.vercel.app/',
+            //   githubLink: 'https://github.com/manav-singhal12'
+            // }
           ].map((project, index) => (
             <div
               key={index}

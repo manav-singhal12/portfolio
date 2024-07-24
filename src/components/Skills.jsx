@@ -42,8 +42,10 @@ const Skills = () => {
               <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='https://static-00.iconduck.com/assets.00/git-icon-2048x2048-juzdf1l5.png' alt='Git' /> Git</div>
               <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='https://cdns.iconmonstr.com/wp-content/releases/preview/2012/240/iconmonstr-github-1.png' alt='Github' /> Github</div>
               <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png' alt='VS Code' /> VS Code</div>
-              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='https://icons-for-free.com/download.php?icon_download=brand+vercel-1330572013006236642&size=128&type=png&m=1715440274' alt='Vercel' /> Vercel</div>
+              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='https://cdn.intuji.com/2022/06/Logo_Vercel-1.jpg' alt='Vercel' /> Vercel</div>
               <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='https://user-images.githubusercontent.com/2676579/34940598-17cc20f0-f9be-11e7-8c6d-f0190d502d64.png' alt='Postman' /> Postman</div>
+              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg' alt='C Language' /> C Language</div>
+              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='https://1000logos.net/wp-content/uploads/2020/09/Java-Emblem-500x313.jpg' alt='Java' /> Java</div>
             </div>
           </div>
         </div>
