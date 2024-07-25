@@ -41,7 +41,7 @@ const Home = () => {
           </a>
         </div>
         <p className='border-2 p-2 md:p-3 h-16  w-36 md:w-44 rounded-md flex justify-center items-center my-4 md:my-10 resume'>
-          <a target='_blank' href='./manavfinal.pdf' rel='noopener noreferrer'>Download Resume</a>
+          <a target='_blank' href='./manavresumefinal.pdf' rel='noopener noreferrer'>Download Resume</a>
         </p>
       </div>
       <div className="right w-full md:w-1/2 flex items-center justify-center northeast-border-container rounded-full" data-aos='fade-left'>
