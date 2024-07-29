@@ -29,10 +29,10 @@ const Project = () => {
             {
               title: 'Looks',
               imgSrcs: ['./looks.png', './looks2.png'],
-              description: 'A full stack e-commerce website designed to buy clothes. This website allows you to create your own cart and buy products. The list of orders you made are also visible.',
+              description: 'A full stack e-commerce website designed to buy clothes. This website allows two different logins, one for normal users and other for specific users having id @looks which shows different prices.',
               tech: ['#NextJs', '#MongoDB', '#Tailwind'],
-              liveLink: 'https://fd-3388.vercel.app/',
-              githubLink: 'https://github.com/manav-singhal12/fd'
+              liveLink: 'https://looks-pi.vercel.app/',
+              githubLink: 'https://github.com/manav-singhal12/ECOMM'
             },
             // {
             //   title: 'Chat Vibe',
