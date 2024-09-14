@@ -34,22 +34,22 @@ const Project = () => {
               liveLink: 'https://looks-pi.vercel.app/',
               githubLink: 'https://github.com/manav-singhal12/ECOMM'
             },
-            // {
-            //   title: 'Chat Vibe',
-            //   imgSrc: './codeeditor.png',
-            //   description: 'A full stack code application which provides real time chat between the users with a interactive UI design. Also provides emoji and images facilities.',
-            //   tech: ['#React', '#Node', '#Socketio'],
-            //   liveLink: 'https://code-editor-lime-chi.vercel.app/',
-            //   githubLink: 'https://github.com/manav-singhal12'
-            // },
             {
-              title: 'PassMaps',
-              imgSrc: './PassMaps.png',
-              description: 'A frontend project used to manage your passwords in the local storage, allows you to edit and delete them.',
-              tech: ['#ReactJS', '#Tailwind', '#UI/UX'],
-              liveLink: 'https://password-manager-chi-eight.vercel.app/',
-              githubLink: 'https://github.com/manav-singhal12/PasswordManager'
+              title: 'Chat Vibe',
+              imgSrc: './chatvibe.png',
+              description: 'A full stack code application which provides real time chat between the users with a interactive UI design. It shows you whether the user is online or not.',
+              tech: ['#React', '#Node','#Express', '#Socketio'],
+              liveLink: 'https://chatapp-six-self.vercel.app/',
+              githubLink: 'https://github.com/manav-singhal12/chatapp'
             },
+            // {
+            //   title: 'PassMaps',
+            //   imgSrc: './PassMaps.png',
+            //   description: 'A frontend project used to manage your passwords in the local storage, allows you to edit and delete them.',
+            //   tech: ['#ReactJS', '#Tailwind', '#UI/UX'],
+            //   liveLink: 'https://password-manager-chi-eight.vercel.app/',
+            //   githubLink: 'https://github.com/manav-singhal12/PasswordManager'
+            // },
             // {
             //   title: 'Motify',
             //   imgSrc: './codeeditor.png',
@@ -61,7 +61,7 @@ const Project = () => {
           ].map((project, index) => (
             <div
               key={index}
-              className="h-[63vh] w-[90vw] sm:w-[45vw] md:w-[30vw] lg:w-[24vw] border-2 rounded-3xl card relative overflow-hidden cusshadow"
+              className="h-[63vh] w-[80vw] sm:w-[45vw] md:w-[30vw] lg:w-[24vw] border-2 rounded-3xl card relative overflow-hidden cusshadow"
               data-aos="fade-up"
             >
               <div className="h-full w-full">
