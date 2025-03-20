@@ -19,17 +19,25 @@ const Project = () => {
         <div className="projects flex flex-wrap justify-center gap-8 md:gap-10 lg:gap-20 py-10 px-4">
           {[
             {
-              title: 'Code Editor',
-              imgSrc: './codeeditor.png',
-              description: 'A simple frontend code editor built using HTML, CSS and JS to help you build simple projects which use these technologies.',
-              tech: ['#HTML', '#CSS', '#JavaScript'],
-              liveLink: 'https://code-editor-lime-chi.vercel.app/',
-              githubLink: 'https://github.com/manav-singhal12/codeEditor'
+              title: 'SolBudget',
+              imgSrc: './Solbudget.png',
+              description: 'A Budget website to manage Solana (Blockchain) payments. It allows to add, update, and manage multiple Solana wallets. Dynamic charts for tracking transactions .Set, update, and delete limits . Secure on chain transactions.',
+              tech: ['#MERN', '#Redux', '#SolanaWeb3Js  '],
+              liveLink: 'https://solbudget.vercel.app/',
+              githubLink: 'https://github.com/manav-singhal12/SolBudget'
             },
+            // {
+            //   title: 'Code Editor',
+            //   imgSrc: './codeeditor.png',
+            //   description: 'A simple frontend code editor built using HTML, CSS and JS to help you build simple projects which use these technologies.',
+            //   tech: ['#HTML', '#CSS', '#JavaScript'],
+            //   liveLink: 'https://code-editor-lime-chi.vercel.app/',
+            //   githubLink: 'https://github.com/manav-singhal12/codeEditor'
+            // },
             {
               title: 'Looks',
               imgSrcs: ['./looks.png', './looks2.png'],
-              description: 'A full stack e-commerce website designed to buy clothes. This website allows two different logins, one for normal users and other for specific users having id @looks which shows different prices.',
+              description: 'A Dual-Purpose E-Commerce Platform designed for both regular customers and wholesale dealers, offering tailored pricing based on user type.  An Exclusive Dealer Access through the special @looks login provides select wholesalers with unique pricing. ',
               tech: ['#NextJs', '#MongoDB', '#Tailwind'],
               liveLink: 'https://looks-pi.vercel.app/',
               githubLink: 'https://github.com/manav-singhal12/ECOMM'
@@ -37,7 +45,7 @@ const Project = () => {
             {
               title: 'Chat Vibe',
               imgSrc: './chatvibe.png',
-              description: 'A full stack code application which provides real time chat between the users with a interactive UI design. It shows you whether the user is online or not.',
+              description: 'A Full-Stack Chat Application enabling real-time messaging through WebSockets for seamless communication.  The Live Presence Status shows whether users are online or offline in real time. Designed with an Intuitive UI/UX for a seamless user experience.',
               tech: ['#React', '#Node','#Express', '#Socketio'],
               liveLink: 'https://chatapp-six-self.vercel.app/',
               githubLink: 'https://github.com/manav-singhal12/chatapp'
@@ -61,7 +69,7 @@ const Project = () => {
           ].map((project, index) => (
             <div
               key={index}
-              className="h-[63vh] w-[80vw] sm:w-[45vw] md:w-[30vw] lg:w-[24vw] border-2 rounded-3xl card relative overflow-hidden cusshadow"
+              className="h-[63vh] w-[80vw] sm:w-[45vw] md:w-[30vw] lg:w-[26vw] border-2 rounded-3xl card relative overflow-hidden cusshadow"
               data-aos="fade-up"
             >
               <div className="h-full w-full">
