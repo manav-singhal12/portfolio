@@ -5,6 +5,7 @@ import Contact from './Contact';
 import Home from './Home';
 import About from './About';
 import Skills from './Skills';
+import Experience from './Experience';
 import Project from './Project';
 
 const Navbar = () => {
@@ -77,6 +78,17 @@ const Navbar = () => {
           <Link
             className="text-white cursor-pointer py-2 md:py-0"
             activeClass="active"
+            to="Experience"
+            spy={true}
+            smooth={true}
+            duration={1000}
+            onClick={toggleMenu}
+          >
+            Experience
+          </Link>
+          <Link
+            className="text-white cursor-pointer py-2 md:py-0"
+            activeClass="active"
             to="Contact"
             spy={true}
             smooth={true}
@@ -100,6 +112,9 @@ const Navbar = () => {
         </div>
         <div id="Project" className="section">
           <Project />
+        </div>
+        <div id="Experience" className="section">
+          <Experience />
         </div>
         <div id="Contact" className="section">
           <Contact />

@@ -40,12 +40,12 @@ const Home = () => {
             <i className="fa-brands fa-github text-xl md:text-2xl"></i>
           </a>
         </div>
-        <p className='border-2 p-2 md:p-3 h-16  w-36 md:w-44 rounded-md flex justify-center items-center my-4 md:my-10 resume'>
-          <a target='_blank' href='./manav.pdf' rel='noopener noreferrer'>Download Resume</a>
+        <p className='border-2 p-2 md:p-3 h-16  w-60 md:w-60 rounded-md flex justify-center items-center my-4 md:my-10 resume'>
+          <a target='_blank' href='./resume.pdf' rel='noopener noreferrer'>Download Resume</a>
         </p>
       </div>
       <div className="right w-full md:w-1/2 flex items-center justify-center northeast-border-container rounded-full" data-aos='fade-left'>
-        <img className='rounded-full h-50 w-50 md:h-[50vh] md:w-[25vw]  object-cover moving-image borderimage border-green-200' src='./121.jpg' alt='Manav Singhal' />
+        <img className='rounded-full h-50 w-50 md:h-[50vh] md:w-[30vw]  object-cover moving-image borderimage border-green-200' src='./main_photo.jpg' alt='Manav Singhal' />
       </div>
     </div>
   );

@@ -18,34 +18,35 @@ const Skills = () => {
           <div className="frontend border-2 w-full md:w-80 lg:w-96 cusshadow rounded-3xl h-auto flex flex-col pt-16 items-center" data-aos="fade-up">
             <h2 className='text-2xl font-bold px-8'>Frontend</h2>
             <div className='flex flex-wrap gap-4 py-10 p-4 justify-center'>
-              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='https://cdn.icon-icons.com/icons2/2107/PNG/96/file_type_html_icon_130541.png' alt='HTML' /> HTML</div>
-              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='https://static-00.iconduck.com/assets.00/file-type-css-icon-226x256-ytqdyr76.png' alt='CSS' /> CSS</div>
-              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='https://static-00.iconduck.com/assets.00/javascript-js-icon-512x512-q3igwln6.png' alt='JavaScript' /> JavaScript</div>
-              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='https://static-00.iconduck.com/assets.00/react-icon-256x228-97ltgbl1.png' alt='React Js' /> React Js</div>
-              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='https://styles.redditmedia.com/t5_3h7yi/styles/communityIcon_nsrozhr9igl91.png' alt='Next Js' /> Next Js</div>
-              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='https://seekicon.com/free-icon-download/tailwindcss_1.svg' alt='Tailwind CSS' /><p>Tailwind CSS</p></div>
+              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='./skills/html.webp' alt='HTML' /> HTML</div>
+              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='./skills/css.webp' alt='CSS' /> CSS</div>
+              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='./skills/javascript.webp' alt='JavaScript' /> JavaScript</div>
+              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='./skills/typescript.webp' alt='TypeScript' /> TypeScript</div>
+              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-10' src='./skills/react.webp' alt='React Js' /> React Js</div>
+              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='./skills/next.webp' alt='Next Js' /> Next Js</div>
+              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='./skills/tailwind.webp' alt='Tailwind CSS' /><p>Tailwind CSS</p></div>
             </div>
           </div>
           <div className="frontend border-2 w-full md:w-80 lg:w-96 cusshadow rounded-3xl h-auto flex flex-col pt-16 items-center" data-aos="fade-up">
             <h2 className='text-2xl font-bold px-8'>Backend</h2>
             <div className='flex flex-wrap gap-4 py-10 p-4 justify-center'>
-              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='https://static-00.iconduck.com/assets.00/node-js-icon-227x256-913nazt0.png' alt='Node Js' /> Node Js</div>
-              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-8' src='https://user-images.githubusercontent.com/46530103/149555472-2e2ed369-9011-496e-9fe5-69facdf534e8.png' alt='Express' /> Express</div>
-              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='https://static-00.iconduck.com/assets.00/python-icon-256x254-m7n72ce3.png' alt='Python' /> Python</div>
-              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='https://static-00.iconduck.com/assets.00/mysql-plain-icon-256x251-bt49eup1.png' alt='My SQL' /> My SQL</div>
-              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='https://static-00.iconduck.com/assets.00/mongodb-icon-1024x1024-jyklwn1x.png' alt='Monog DB' /> Mongo DB</div>
+              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='./skills/node.webp' alt='Node Js' /> Node Js</div>
+              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-8' src='./skills/express.webp' alt='Express' /> Express</div>
+              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='./skills/python.webp' alt='Python' /> Python</div>
+              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-12' src='./skills/mysql.webp' alt='My SQL' /> My SQL</div>
+              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-12' src='./skills/mongodb.webp' alt='Monog DB' /> Mongo DB</div>
             </div>
           </div>
           <div className="frontend border-2 w-full md:w-80 lg:w-96 cusshadow rounded-3xl h-auto flex flex-col pt-16 items-center" data-aos="fade-up">
             <h2 className='text-2xl font-bold px-8'>Others</h2>
             <div className='flex flex-wrap gap-4 py-10 p-4 justify-center'>
-              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='https://static-00.iconduck.com/assets.00/git-icon-2048x2048-juzdf1l5.png' alt='Git' /> Git</div>
-              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='https://cdns.iconmonstr.com/wp-content/releases/preview/2012/240/iconmonstr-github-1.png' alt='Github' /> Github</div>
-              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png' alt='VS Code' /> VS Code</div>
-              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='https://cdn.intuji.com/2022/06/Logo_Vercel-1.jpg' alt='Vercel' /> Vercel</div>
-              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='https://user-images.githubusercontent.com/2676579/34940598-17cc20f0-f9be-11e7-8c6d-f0190d502d64.png' alt='Postman' /> Postman</div>
-              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg' alt='C Language' /> C Language</div>
-              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='https://1000logos.net/wp-content/uploads/2020/09/Java-Emblem-500x313.jpg' alt='Java' /> Java</div>
+              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='./skills/git.webp' alt='Git' /> Git</div>
+              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='./skills/github.webp' alt='Github' /> Github</div>
+              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='./skills/vscode.webp' alt='VS Code' /> VS Code</div>
+              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-10' src='./skills/vercel.webp' alt='Vercel' /> Vercel</div>
+              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='./skills/postman.webp' alt='Postman' /> Postman</div>
+              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='./skills/C.webp' alt='C Language' /> C Language</div>
+              <div className='flex justify-center items-center border-2 gap-1 rounded-md p-2 opacity-70'><img className='h-6 w-6' src='./skills/java.webp' alt='Java' /> Java</div>
             </div>
           </div>
         </div>

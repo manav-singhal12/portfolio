@@ -34,13 +34,21 @@ const Project = () => {
             //   liveLink: 'https://code-editor-lime-chi.vercel.app/',
             //   githubLink: 'https://github.com/manav-singhal12/codeEditor'
             // },
+            // {
+            //   title: 'Looks',
+            //   imgSrcs: ['./looks.png', './looks2.png'],
+            //   description: 'A Dual-Purpose E-Commerce Platform designed for both regular customers and wholesale dealers, offering tailored pricing based on user type.  An Exclusive Dealer Access through the special @looks login provides select wholesalers with unique pricing. ',
+            //   tech: ['#NextJs', '#MongoDB', '#Tailwind'],
+            //   liveLink: 'https://looks-pi.vercel.app/',
+            //   githubLink: 'https://github.com/manav-singhal12/ECOMM'
+            // },
             {
-              title: 'Looks',
-              imgSrcs: ['./looks.png', './looks2.png'],
-              description: 'A Dual-Purpose E-Commerce Platform designed for both regular customers and wholesale dealers, offering tailored pricing based on user type.  An Exclusive Dealer Access through the special @looks login provides select wholesalers with unique pricing. ',
-              tech: ['#NextJs', '#MongoDB', '#Tailwind'],
-              liveLink: 'https://looks-pi.vercel.app/',
-              githubLink: 'https://github.com/manav-singhal12/ECOMM'
+              title: 'No Internet Pay',
+              imgSrc: ['./noInternetPay.png'],
+              description: 'Built an SMS-based payment system enabling offline UPI transactions without internet, using an offline-first architecture with Twilio APIs to ensure ~99% message delivery reliability. Improved accessibility in low-connectivity regions while optimizing lightweight workflows.',
+              tech: ['#NodeJs', '#MongoDB', '#ReactJs'],
+              liveLink: 'https://github.com/manav-singhal12/NoInternetPay',
+              githubLink: 'https://github.com/manav-singhal12/NoInternetPay'
             },
             {
               title: 'Chat Vibe',
